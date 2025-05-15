@@ -2,6 +2,5 @@ zabbix/zabbix-server-mysql
 zabbix/zabbix-web-nginx-mysql
 zabbix/zabbix-agent
 graylog/graylog:6.2
-graylog/graylog:6.3
 nginx
 bitnami/openresty
