@@ -4,3 +4,6 @@ zabbix/zabbix-agent
 graylog/graylog:6.2
 nginx
 bitnami/openresty
+mysql:8.0
+php:7.2.34-fpm
+node:22-alpine
