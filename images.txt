@@ -6,6 +6,7 @@
 # openresty/openresty:bookworm
 # mysql:8.0
 # php:7.2.34-fpm
-php:8.2.29-fpm
+# php:8.2.29-fpm
+php:8.3.27-fpm
 # node:22-alpine
 # whyour/qinglong:debian
