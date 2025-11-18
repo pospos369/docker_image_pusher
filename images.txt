@@ -10,5 +10,5 @@
 # php:8.3.27-fpm
 # node:22-alpine
 # whyour/qinglong:debian
-# gitea/gitea:1.21.1
-gitea/act_runner:latest
+gitea/gitea:1.25.1
+# gitea/act_runner:latest
