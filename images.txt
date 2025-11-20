@@ -1,6 +1,6 @@
-# zabbix/zabbix-server-mysql
-# zabbix/zabbix-web-nginx-mysql
-# zabbix/zabbix-agent
+zabbix/zabbix-server-mysql
+zabbix/zabbix-web-nginx-mysql
+zabbix/zabbix-agent
 # graylog/graylog:6.2
 # nginx
 # openresty/openresty:bookworm
@@ -10,5 +10,5 @@
 # php:8.3.27-fpm
 # node:22-alpine
 # whyour/qinglong:debian
-gitea/gitea:1.25.1
+# gitea/gitea:1.25.1
 # gitea/act_runner:latest
