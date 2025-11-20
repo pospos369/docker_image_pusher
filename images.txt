@@ -1,5 +1,6 @@
-zabbix/zabbix-server-mysql
-zabbix/zabbix-web-nginx-mysql
+zabbix/zabbix-server-mysql:7.4-ubuntu-latest
+zabbix/zabbix-web-nginx-mysql:7.4-ubuntu-latest
+zabbix/zabbix-snmptraps:7.4-ubuntu-latest
 zabbix/zabbix-agent
 # graylog/graylog:6.2
 # nginx
