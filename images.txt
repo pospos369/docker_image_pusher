@@ -14,4 +14,5 @@
 # gitea/gitea:1.25.1
 # gitea/act_runner:latest
 # mongo:7.0
-percona/percona-xtrabackup:8.0.35-35
+# percona/percona-xtrabackup:8.0.35-35
+kodcloud/kodbox:latest
