@@ -16,4 +16,4 @@ zabbix/zabbix-agent
 # mongo:7.0
 # percona/percona-xtrabackup:8.0.35-35
 # kodcloud/kodbox:latest
-clamav/clamav:latest-debian
+# clamav/clamav:latest-debian
