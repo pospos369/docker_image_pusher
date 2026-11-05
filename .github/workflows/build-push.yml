@@ -26,9 +26,9 @@ jobs:
       - name: 登录阿里云容器镜像仓库
         uses: docker/login-action@v3
         with:
-          registry: ${{ secrets.ALIYUN_REGISTRY }}
-          username: ${{ secrets.ALIYUN_REGISTRY_USER }}
-          password: ${{ secrets.ALIYUN_REGISTRY_PASSWORD }}
+          registry: "${{ secrets.ALIYUN_REGISTRY }}"
+          username: "${{ secrets.ALIYUN_REGISTRY_USER }}"
+          password: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
 
       - name: 构建并推送镜像
         uses: docker/build-push-action@v5
