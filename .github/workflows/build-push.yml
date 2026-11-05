@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # 支持手动触发
 
 env:
-  IMAGE_NAME: nginx-ssl-fingerprint
+  IMAGE_NAME: nginx
   IMAGE_TAG: 1.30.3
   ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
   ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
@@ -27,7 +27,6 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ${{ secrets.ALIYUN_REGISTRY }}
-          name_space: ${{ secrets.ALIYUN_NAME_SPACE }}
           username: ${{ secrets.ALIYUN_REGISTRY_USER }}
           password: ${{ secrets.ALIYUN_REGISTRY_PASSWORD }}
 
