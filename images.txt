@@ -1,9 +1,10 @@
-zabbix/zabbix-server-mysql:7.4-ubuntu-latest
-zabbix/zabbix-web-nginx-mysql:7.4-ubuntu-latest
-zabbix/zabbix-snmptraps:7.4-ubuntu-latest
-zabbix/zabbix-agent
+# zabbix/zabbix-server-mysql:7.4-ubuntu-latest
+# zabbix/zabbix-web-nginx-mysql:7.4-ubuntu-latest
+# zabbix/zabbix-snmptraps:7.4-ubuntu-latest
+# zabbix/zabbix-agent
 # graylog/graylog:7.1
-# nginx
+nginx
+nginx 1.23.2
 # openresty/openresty:bookworm
 # mysql:8.0
 # php:7.2.34-fpm
