@@ -4,7 +4,6 @@
 # zabbix/zabbix-agent
 # graylog/graylog:7.1
 nginx
-nginx 1.23.2
 # openresty/openresty:bookworm
 # mysql:8.0
 # php:7.2.34-fpm
