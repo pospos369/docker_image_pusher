@@ -3,7 +3,7 @@
 # zabbix/zabbix-snmptraps:7.4-ubuntu-latest
 # zabbix/zabbix-agent
 # graylog/graylog:7.1
-nginx
+# nginx
 # openresty/openresty:bookworm
 # mysql:8.0
 # php:7.2.34-fpm
@@ -18,3 +18,5 @@ nginx
 # kodcloud/kodbox:latest
 # clamav/clamav:latest-debian
 # public.ecr.aws/aikido-dev/php:7.2.34-fpm
+kodcloud/kodoffice
+kodcloud/kodbox:latest
