@@ -38,9 +38,18 @@ jobs:
         remove-android: 'true'
         remove-codeql: 'true'
         build-mount-path: '/var/lib/docker/'
-
+    - name: Move containerd to enlarged disk
+      run: |
+        sudo systemctl stop docker docker.socket containerd 2>/dev/null || true
+        sudo mkdir -p /var/lib/docker/containerd-shared
+        sudo mkdir -p /var/lib/containerd
+        sudo rsync -a /var/lib/containerd/ /var/lib/docker/containerd-shared/
+        sudo rm -rf /var/lib/containerd
+        sudo mkdir -p /var/lib/containerd
+        sudo mount --bind /var/lib/docker/containerd-shared /var/lib/containerd
     - name: Restart docker
-      run: sudo service docker restart
+      run: |
+        sudo systemctl start containerd docker 2>/dev/null || sudo service docker restart
 
     - name: Free up disk space complete
       run: |
